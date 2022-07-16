@@ -9,13 +9,13 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
+    public static final Item LEARNING_GEM = registerItem("raw_learning",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     public static final Item LEARNING_INGOT = registerItem("learning_ingot",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static final Item LEARNING_NUGGET = registerItem("learning_nugget",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-
-    public static final Item LEARNING_GEM = registerItem("learning_gem",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item) {

@@ -1,5 +1,9 @@
 {
+  "item.learning-kaupenjoe.raw_learning": "Raw Learning",
   "item.learning-kaupenjoe.learning_ingot": "Learning Ingot",
   "item.learning-kaupenjoe.learning_nugget": "Learning nugget",
-  "item.learning-kaupenjoe.learning_gem": "Learning gem"
+
+
+  "block.learning-kaupenjoe.learning_block": "Learning Block",
+  "block.learning-kaupenjoe.learning_ore": "Learning Ore"
 }

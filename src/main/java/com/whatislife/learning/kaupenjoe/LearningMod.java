@@ -1,5 +1,6 @@
 package com.whatislife.learning.kaupenjoe;
 
+import com.whatislife.learning.kaupenjoe.block.ModBlocks;
 import com.whatislife.learning.kaupenjoe.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -12,5 +13,6 @@ public class LearningMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
